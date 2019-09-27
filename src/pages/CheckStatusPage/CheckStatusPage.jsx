@@ -76,9 +76,7 @@ class CheckStatusPage extends React.Component {
             <Paper style={{ margin: 50 }}>
                 {
                     Object.keys(this.state.rows).map(key => {
-
                         return <ServiceTable serviceKey={key} serviceData={this.state.rows[key]} key={key}></ServiceTable>;
-
                     })
                 }
 

@@ -8,4 +8,4 @@
 
 React + MUI / webpack + babel
 Показывает список сервисов и привязанных к ним доступных БД.
-Самое любопытное: в файле [CheckStatusPage.jsx](../src/pages/CheckStatusPage/CheckStatusPage.jsx) пример выполнения нескольких последовательных асинхронных запросов в цикле с помощью async/await. Делается следующее: из конфига достаются урлы сервисов, затем страница [CheckStatusPage.jsx](../src/pages/CheckStatusPage/CheckStatusPage.jsx) последовательно выполняет обращения к этим урлам поочередно и обновляет список на экране.
+Самое любопытное: в файле [CheckStatusPage.jsx](/blob/master/src/pages/CheckStatusPage/CheckStatusPage.jsx) пример выполнения нескольких последовательных асинхронных запросов в цикле с помощью async/await. Делается следующее: из конфига достаются урлы сервисов, затем страница [CheckStatusPage.jsx](/blob/master/src/pages/CheckStatusPage/CheckStatusPage.jsx) последовательно выполняет обращения к этим урлам поочередно и обновляет список на экране.
